@@ -26,7 +26,7 @@ export default function Login() {
 
     try {
       const res = await fetch(
-        "https://donjayautos.com/api/auth/login",
+        "https://donjay-server-mw7v-4klcotyzr-jaytechs-projects-e325c32a.vercel.app/api/auth/login",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

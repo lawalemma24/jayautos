@@ -77,7 +77,7 @@ export default function Otp() {
     try {
       const payload = { email, otp };
       const res = await fetch(
-        "https://donjayautos.com/api/auth/verify-otp",
+        "https://donjay-server-mw7v-4klcotyzr-jaytechs-projects-e325c32a.vercel.app/api/auth/verify-otp",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -124,7 +124,7 @@ export default function Otp() {
     try {
       const payload = { email };
       const res = await fetch(
-        "https://donjayautos.com/api/auth/resend-otp",
+        "https://donjay-server-mw7v-4klcotyzr-jaytechs-projects-e325c32a.vercel.app/api/auth/resend-otp",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
