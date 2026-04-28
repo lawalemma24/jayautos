@@ -19,7 +19,7 @@ export default function AdminLogin() {
     const password = e.target.password.value.trim();
 
     if (!email || !password) {
-      toast.error("Please fill in all fields");
+      toast.error("Please fill in all necessary fields");
       return;
     }
 
